@@ -1,0 +1,80 @@
+input.ng-invalid {
+  background-color: red;
+}
+html,body{
+  background-image: linear-gradient(to right,white,green);
+}
+body{
+  padding: 3em;
+}
+.pager_ul li{
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.pager_ul li.active{
+  text-decoration: blink;
+  cursor: default;
+}
+.error{
+  color: red;
+}
+.pager_ul{
+  list-style:none;
+  display: inline-block;
+
+}
+.pager{
+}
+/*table td,th{*/
+  /*border: 1px solid silver;*/
+  /*padding: 15px;*/
+/*}*/
+table.gridtable {
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #666666;
+  border-collapse: collapse;
+}
+table.gridtable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #666666;
+  background-color: #dedede;
+}
+table.gridtable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #666666;
+  background-color: #ffffff;
+}
+
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}

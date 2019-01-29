@@ -1,0 +1,139 @@
+{
+  "list1": [
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 5,
+      "region": 1,
+      "cpType": "finance"
+    },
+    {
+      "name": "Medwave Billing & Credentialing",
+      "weight": 2,
+      "region": 1,
+      "cpType": "med"
+    },
+    {
+      "name": "Trophy Stall",
+      "weight": 1,
+      "region": 0,
+      "cpType": "finance"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 5,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Medwave Billing & Credentialing",
+      "weight": 7,
+      "region": 0,
+      "cpType": "finance"
+    },
+    {
+      "name": "Trophy Stall",
+      "weight": 3,
+      "region": 0,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "PWC",
+      "weight": 8,
+      "region": 1,
+      "cpType": "finance"
+    },
+    {
+      "name": "PWC",
+      "weight": 8,
+      "region": 1,
+      "cpType": "finance"
+    }
+  ],
+  "list2": [
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "PWC",
+      "weight": 8,
+      "region": 1,
+      "cpType": "finance"
+    },
+    {
+      "name": "Trophy Stall",
+      "weight": 3,
+      "region": 0,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "food"
+    },
+    {
+      "name": "Shaoxing Changrong Aquatic-sports Articles Factory",
+      "weight": 99,
+      "region": 1,
+      "cpType": "finance"
+    }
+
+  ]
+}

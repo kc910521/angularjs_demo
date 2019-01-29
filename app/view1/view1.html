@@ -1,0 +1,55 @@
+<p>This is the partial for view 1.</p>
+<div>
+
+    <div class="ck_cube">
+        <p>Data binding:</p>
+        <div ng-app="nameInput">
+            enter ur name with number &lt;required&gt;: <input ng-model="name" ng-change="nameChange()"  required>
+            <h1>USERNAME: {{name}}</h1>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <search-box></search-box>
+        <div class="data_list" ng-init="names=[]">
+            <p>Request API params: ?<span style="color: red">{{urlParam}}</span></p>
+            <div style="min-height: 300px;">
+                <table class="gridtable">
+                    <tr>
+                        <th>NO.</th>
+                        <th>NAME</th>
+                        <th>TYPE</th>
+                        <th>REGION</th>
+                        <th>WEIGHT</th>
+                    </tr>
+                    <tr ng-repeat="x in names | orderBy:'weight' | limitTo: 5">
+                        <td>{{ ($index + 1)  }}</td>
+                        <td><a href="javascript:;">{{ x.name }}</a></td>
+                        <td><a href="javascript:;">{{ x.cpType }}</a></td>
+
+                        <td ng-if="x.region === 1"><a href="javascript:;">internal</a></td>
+                        <td ng-if="x.region === 0"><a href="javascript:;">external</a></td>
+                        <td><a href="javascript:;">{{ x.weight }}</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!--<ul>-->
+                <!--<li  ng-if="x.weight === 3 ">-->
+                    <!--<a href="javascript:;" style="color: red" ng-click="click3()">{{ x.name }}-and my weight is 3</a>-->
+                <!--</li>-->
+                <!--<li  ng-if="x.weight !== 3 ">-->
+                    <!--<a href="javascript:;">{{ x.name }}-{{x.weight}}</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+        <div class="pager"  style="display: inline-block">
+            <ul class="pager_ul" ng-repeat="x in pageNumber">
+                <li ng-if="x.isCurr == true" class="active">{{ x.pg }}</li>
+                <li ng-if="x.isCurr == false" ng-click="searchNow(x.pg)">{{ x.pg }}</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+</div>

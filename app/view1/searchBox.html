@@ -1,0 +1,16 @@
+<form name="search_form" ng-init="currPage=1" ng-submit="searchNow(currPage)" style="display: inline-block;padding: 20px; border: 1px solid silver" class="filter_block" novalidate>
+    name{{currPage}}:<br>
+    <input type="search" name="cpName" ng-model="cd.cpName">
+    <p>
+        type:<br>
+        <label><input type="checkbox" ng-model="cd.cpType.food" name="cpType" value="food" >food</label>
+        <label><input type="checkbox" ng-model="cd.cpType.med" name="cpType" value="med" >med</label>
+        <label><input type="checkbox" ng-model="cd.cpType.finance" name="cpType" value="finance" >finance</label>
+    </p>
+    <p>
+        region:<br>
+        <label><input name="region" ng-model="cd.region" type="radio" value="1" />internal</label>
+        <label><input name="region" ng-model="cd.region" type="radio" value="0" />external</label>
+    </p>
+    <input type="submit" value="searchNow !">
+</form>
